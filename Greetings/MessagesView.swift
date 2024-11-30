@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct MessagesView: View {
+    let messages: [DataItemModel] = [
+        //DataItemModel(text: "Hello there!",color: .green)
+        .init(text: "Hello there!", color: Color.green),
+        .init(text: "Welcome to Swift Programming",color: Color.gray),
+        .init(text: "Are you ready to,",color: Color.yellow),
+        .init(text: "start exploring?",color: Color.red),
+        .init(text: "Boom!",color: Color.purple)
+    ]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            ForEach(messages) { dataItem in
+                TextView(text: dataItem.text, color: dataItem.color)
+            }
+        }
     }
 }
 
