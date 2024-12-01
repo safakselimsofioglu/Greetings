@@ -23,6 +23,28 @@
         }
       }
     },
+    "Arabic" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العربية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Árabe"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arapça"
+          }
+        }
+      }
+    },
     "Are you ready to," : {
       "localizations" : {
         "ar" : {
@@ -63,6 +85,31 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bum!"
+          }
+        }
+      }
+    },
+    "Click on text and disc" : {
+
+    },
+    "English" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإنجليزية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inglés"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizce"
           }
         }
       }
@@ -177,6 +224,28 @@
         }
       }
     },
+    "Spanish" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإسبانية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Español"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İspanyolca"
+          }
+        }
+      }
+    },
     "start exploring?" : {
       "localizations" : {
         "ar" : {
@@ -195,6 +264,31 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "keşfetmeye başla?"
+          }
+        }
+      }
+    },
+    "Text will be randomly generated and observe nice animations!" : {
+
+    },
+    "Turkish" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التركية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turco"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Türkçe"
           }
         }
       }
