@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/// This is the title view of the app which
+/// displays a title, a subtitle, which randomly changes on tap
+/// and we have colorful disc which rotates on tap and
+/// that is amazing.
 struct TitleView: View {
     
     let lineWidth = 15.0
@@ -23,8 +27,9 @@ struct TitleView: View {
             .pink, .purple, .blue, .orange, .yellow]), center: .center, angle: .zero)
     }
     
-    @State private var subtitle = "Exploring iOS Programming"
-    let subtitles = [
+    @State private var subtitle: LocalizedStringKey = "Exploring iOS Programming"
+    
+    let subtitles: [LocalizedStringKey] = [
         "Exploring iOS Programming",
         "Learning how to bake",
         "Programming recipes",
@@ -42,7 +47,7 @@ struct TitleView: View {
                     .fontWeight(.thin)
             }
             .onTapGesture {
-                subtitle = subtitles.randomElement() ?? "Exploring iOS Programming"
+                subtitle = subtitles.randomElement() ?? LocalizedStringKey("Exploring iOS Programming")
             }
             
             Spacer()
